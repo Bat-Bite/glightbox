@@ -13,7 +13,9 @@ body{
     max-width: 1400px;
 }
 
-*,*::before, *::after{
+*,
+*::before, 
+*::after{
     box-sizing: inherit;
 }
 

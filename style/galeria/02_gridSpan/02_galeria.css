@@ -4,7 +4,7 @@
 }
 
 .h-1,.h-2,.h-3,.h-4,.h-5,.h-6{
-    grid-row: span 1;
+    grid-row:span 1;
 }
 
 .gallery-span{
@@ -16,5 +16,6 @@
     /*separacion*/
     grid-gap:0.5rem;
     /*corrige el problema de espaciado de w- y h-*/
-    grid-auto-flow: dense;
+    grid-auto-flow:dense;
 }
+

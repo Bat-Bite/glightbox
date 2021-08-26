@@ -1,0 +1,36 @@
+.gallery-page{
+    padding:0 1rem 10rem 1rem;
+}
+
+/*auto-fill LLENA la fila con tantas columnas como pueda caber. Por lo tanto, crea columnas implícitas siempre que una nueva columna puede caber, porque está tratando de LLENAR la fila con tantas columnas como sea posible. Las columnas recién agregadas pueden estar vacías, pero seguirán ocupando un espacio designado en la fila.
+
+auto-fit ENCAJA las columnas DISPONIBLES ACTUALMENTE en el espacio expandiéndolas para que ocupen cualquier espacio disponible. El navegador hace eso después de LLENAR ese espacio adicional con columnas adicionales (como con auto-fill) y luego colapsar las vacías.*/
+.gallery-auto-fit{
+    display: grid;
+    /*min max ancho*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*alto*/
+    grid-auto-rows: 300px;
+    /*separacion*/
+    grid-gap:0.5rem;
+}
+
+.gallery-item{
+height: 100%;
+width: 100%;
+/*respeta al 100% la separacion*/
+overflow: hidden;
+}
+
+.gallery-img{
+    /*ajusta todas las imagenes independiente del tamaño a la caja definida
+    algunas quedan como messi chiquito*/
+    height: 100%;
+    /*expande las imagenes al tamaño original respentado la caja definida*/
+    object-fit: cover;
+    transition:ease-in-out 0.5s;
+}
+
+.gallery-img:hover{
+    transform: scale(1.5);
+}

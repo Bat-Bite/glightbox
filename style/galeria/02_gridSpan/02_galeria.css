@@ -1,0 +1,20 @@
+.w-1,.w-2,.w-3,.w-4,.w-5,.w-6{
+
+    grid-column: span 1;
+}
+
+.h-1,.h-2,.h-3,.h-4,.h-5,.h-6{
+    grid-row: span 1;
+}
+
+.gallery-span{
+    display: grid;
+    /*min max ancho*/
+    grid-template-columns:1fr;
+    /*alto*/
+    grid-auto-rows: 300px;
+    /*separacion*/
+    grid-gap:0.5rem;
+    /*corrige el problema de espaciado de w- y h-*/
+    grid-auto-flow: dense;
+}

@@ -1,0 +1,100 @@
+html{
+    font-size: 100%;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    max-width: 1400px;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 2rem;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo,.nav-menu{
+    text-transform: uppercase;
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item{
+
+    /* 1= multiplica el tamaño de un elemento de un conjunto valor 1 es predeterminado
+    0= deja que un elemento se reduzca mas que el resto
+    50% Establece la longitud inicial del elemento
+     */
+    flex: 1 0 50%;
+    /*centra el texto de las cajas*/
+    text-align: center;
+}
+
+.logo a,
+.nav-menu a{
+    /*hace que ocupe la totalidad de la caja li*/
+    display: block;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    padding: 0.8rem;
+    color: #000;
+}
+
+.logo a{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.nav-menu a{
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid #fff;
+    transition: all ease 0.2s;
+}
+
+.nav-menu a:hover{
+    background-color: #fff;
+    color: #000;
+    transform: none;
+    border-bottom: 1px solid #000;
+    transition: all ease 0.2s;
+}
+
+.nav-menu a:active{
+    transform: scale(0.9);
+}
+
+
+

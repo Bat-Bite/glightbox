@@ -51,7 +51,6 @@ img{
 }
 
 .nav-item{
-
     /* 1= multiplica el tamaño de un elemento de un conjunto valor 1 es predeterminado
     0= deja que un elemento se reduzca mas que el resto
     50% Establece la longitud inicial del elemento
@@ -71,13 +70,12 @@ img{
     color: #000;
 }
 
+.logo{
+    margin: 0 auto;
+}
 .logo a{
     font-weight: bold;
     font-size: 2rem;
-}
-
-.logo{
-    margin: 0 auto;
 }
 
 .nav-menu a{
@@ -85,7 +83,6 @@ img{
     border-bottom: 1px solid #fff;
     transition: all ease 0.2s;
 }
-
 .nav-menu a:hover{
     background-color: #fff;
     color: #000;
@@ -93,7 +90,6 @@ img{
     border-bottom: 1px solid #000;
     transition: all ease 0.2s;
 }
-
 .nav-menu a:active{
     transform: scale(0.9);
 }

@@ -1,0 +1,13 @@
+.gallery-img{
+    clip-path: polygon(25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+}
+
+.gallery-auto-fit{
+    display: grid;
+    /*min max ancho*/
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /*alto*/
+    grid-auto-rows: 300px;
+    /*separacion*/
+    grid-gap:0.5rem;
+}

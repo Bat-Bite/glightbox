@@ -1,0 +1,64 @@
+# a path:
+/404.html
+Content-Security-Policy: default-src 'none'; base-uri 'none';form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/
+  Content-Security-Policy: default-src 'none';style-src 'self' https://fonts.googleapis.com https://d33wubrfki0l68.cloudfront.net/css/9ea2ac7a8eaf20a15ed01007b8ec83ab971befe7/style/style.css; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://i.giphy.com/UYBDCJjwOd9Re.gif; base-uri 'none';form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/index.html
+  Content-Security-Policy: default-src 'none';style-src 'self' https://fonts.googleapis.com https://d33wubrfki0l68.cloudfront.net/css/9ea2ac7a8eaf20a15ed01007b8ec83ab971befe7/style/style.css; font-src 'self' https://fonts.gstatic.com; img-src 'self'  https://i.giphy.com/UYBDCJjwOd9Re.gif; base-uri 'none';form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/01_curriculum/
+  Content-Security-Policy: default-src 'none';style-src 'self' https://fonts.googleapis.com ; font-src 'self' https://fonts.gstatic.com ; img-src 'self'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/01_curriculum/index.html
+  Content-Security-Policy: default-src 'none';style-src 'self' https://fonts.googleapis.com ; font-src 'self' https://fonts.gstatic.com ; img-src 'self'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/02_listas/
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/02_listas/index.html
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/03_Tablas_en_html/
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/03_Tablas_en_html/index.html
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/04_Diseno_con_tablas/
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/04_Diseno_con_tablas/index.html
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/05_Aplicacion_de_css/
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/05_Aplicacion_de_css/index.html
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/07_Formulario
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+/07_Formulario/index.html
+  Content-Security-Policy: default-src 'none';style-src 'self'; font-src 'self'; img-src 'none'; base-uri 'none'; form-action 'none';script-src 'none';frame-ancestors 'none';
+
+
+
+/aa_bootstrap/
+  Content-Security-Policy: default-src 'none'; connect-src https://ka-f.fontawesome.com; font-src https://ka-f.fontawesome.com; img-src 'self' data: https://d33wubrfki0l68.cloudfront.net/ ; script-src https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js https://d33wubrfki0l68.cloudfront.net/js/1856cc9ac054b257c688787baf1517d9e772568d/aa_bootstrap/js/homebt.js https://kit.fontawesome.com/7b89b932d4.js; style-src 'unsafe-inline' https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/ https://d33wubrfki0l68.cloudfront.net/bundles/ ;frame-ancestors 'none';manifest-src 'self';base-uri 'none';
+
+/aa_bootstrap/index.html
+  Content-Security-Policy: default-src 'none';style-src 'self' https://d33wubrfki0l68.cloudfront.net/css/afffdbadc1b423cbcd208f5323b47c2dcc2e6770/aa_bootstrap/style/style.css https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css ;script-src 'self' https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js ;font-src 'self';img-src 'self';base-uri 'none'; form-action 'none'; frame-ancestors 'none';
+
+  /*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Cache-Control: no-store, max-age=0,no-cache
+  Pragma: no-cache
+  Referrer-Policy: no-referrer
+  Feature-Policy: autoplay 'none'; camera 'none'; document-domain 'none'; encrypted-media 'none'; fullscreen 'none'; geolocation 'none'; microphone 'none'; midi 'none'; payment 'none'; xr-spatial-tracking 'none';
+  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), camera=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), sync-xhr=(), usb=(), vr=();
+  X-Permitted-Cross-Domain-Policies: none
